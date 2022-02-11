@@ -2,6 +2,8 @@
 
 **C++ wrapper for GSL numerical integration routines**
 
+----
+
 ### requirements
 
 - *c++20* for concepts type constraints
@@ -23,11 +25,16 @@ This is a simple single header file wrapper for the adaptive GSL integration rou
 
 ### tests
 
-*test_integrals.hpp*
-- few test cases
+In the `src` directory, a few test are included to illustrate the use of the wrapper
 
-*test_contour.hpp*
-- tests contour integrals
+*test_real_integrals.cpp*
+- few test cases of integrating real-valued univariate functions
+
+*test_complex_integral.cpp*
+- few test cases of integrating complex-valued univariate functions along the real line
+
+*test_contour_integral.cpp*
+- few test cases of integrating complex-valued univariate function along complex complex-valued contour
 
 
 ----
