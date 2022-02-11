@@ -5,8 +5,7 @@
 ### requirements
 
 - *c++20* for concepts type constraints
-- *cmake 3.9*
-- *eigen 3.4.0* <https://eigen.tuxfamily.org/index.php?title=Main_Page>
+- *cmake 3.9* for compiling included tests
 - *gnu scientific library 2.7* <https://www.gnu.org/software/gsl/>
 
 ### features
