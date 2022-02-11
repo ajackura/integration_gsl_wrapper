@@ -28,3 +28,20 @@ This is a simple single header file wrapper for the adaptive GSL integration rou
 
 *test_contour.hpp*
 - tests contour integrals
+
+
+----
+
+### compilation and building examples
+
+Since this is a single header wrapper, simply include `integration.hpp` in your code and call the `integrate` functions. This wrapper was tested with g++11 on Mac OS X. The intel compiler as of the time of writing this, does not support *concepts*, which are necessary for type deduction for the numerical quadrature wrapper. To build the examples included, do the following:
+
+1. clone repository, `cd` to root
+2. run cmake: I do this from a script where I specify compilers
+
+        mkdir build && cd build
+        CC=/usr/local/bin/gcc-11 
+        CXX=/usr/local/bin/g++-11 
+        cmake ../
+
+3. intsall tests: run `make && make install`, test executables are installed in `bin` in root.
