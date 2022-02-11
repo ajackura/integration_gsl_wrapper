@@ -8,7 +8,7 @@
 - *cmake 3.9* for compiling included tests
 - *gnu scientific library 2.7* <https://www.gnu.org/software/gsl/>
 
-### features
+### about
 
 This is a simple single header file wrapper for the adaptive GSL integration routines. Provides and templated integrate function for any univariate function, which is overloaded for complex type, as well as a version to do contour integrals.
 
