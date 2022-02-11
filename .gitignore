@@ -1,0 +1,23 @@
+# Ignore Mac system files
+.DS_store
+
+.vscode/*
+
+# Ignore my config script
+config.sh
+
+# Ignore my binaries
+bin/*
+
+# Ignore my builds
+build/*
+
+# Ignore CMake
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Makefile
+Testing/
+cmake_install.cmake
+
+
